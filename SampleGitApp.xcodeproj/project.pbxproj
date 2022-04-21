@@ -11,6 +11,7 @@
 		F6176C1C28103F0200208D57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6176C1B28103F0200208D57 /* ContentView.swift */; };
 		F6176C1E28103F0400208D57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6176C1D28103F0400208D57 /* Assets.xcassets */; };
 		F6176C2128103F0400208D57 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6176C2028103F0400208D57 /* Preview Assets.xcassets */; };
+		F6176C282811250000208D57 /* HStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6176C272811250000208D57 /* HStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F6176C1B28103F0200208D57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F6176C1D28103F0400208D57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6176C2028103F0400208D57 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F6176C272811250000208D57 /* HStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				F6176C1928103F0200208D57 /* SampleGitAppApp.swift */,
+				F6176C272811250000208D57 /* HStackView.swift */,
 				F6176C1B28103F0200208D57 /* ContentView.swift */,
 				F6176C1D28103F0400208D57 /* Assets.xcassets */,
 				F6176C1F28103F0400208D57 /* Preview Content */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6176C1C28103F0200208D57 /* ContentView.swift in Sources */,
+				F6176C282811250000208D57 /* HStackView.swift in Sources */,
 				F6176C1A28103F0200208D57 /* SampleGitAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

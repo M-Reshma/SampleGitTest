@@ -1,5 +1,5 @@
 app_identifier("com.VTL.vCard") # The bundle identifier of your app
-apple_id("reshma.m@virinchi.com") # Your Apple email address
+apple_id("ios_dev@virinchi.com") # Your Apple email address
 
 itc_team_id("118059699") # App Store Connect Team ID
 team_id("C8CSMQKCZ9") # Developer Portal Team ID

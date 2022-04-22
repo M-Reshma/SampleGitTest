@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F6176C1628103F0200208D57 /* vCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6176C1628103F0200208D57 /* SampleGitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleGitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6176C1928103F0200208D57 /* SampleGitAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleGitAppApp.swift; sourceTree = "<group>"; };
 		F6176C1B28103F0200208D57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F6176C1D28103F0400208D57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,7 +47,7 @@
 		F6176C1728103F0200208D57 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F6176C1628103F0200208D57 /* vCard.app */,
+				F6176C1628103F0200208D57 /* SampleGitApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,7 +90,7 @@
 			);
 			name = SampleGitApp;
 			productName = SampleGitApp;
-			productReference = F6176C1628103F0200208D57 /* vCard.app */;
+			productReference = F6176C1628103F0200208D57 /* SampleGitApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -274,7 +274,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Distribution: Virinchi Technologies Limited (C8CSMQKCZ9)";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SampleGitApp/Preview Content\"";
 				DEVELOPMENT_TEAM = C8CSMQKCZ9;
@@ -292,10 +293,12 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.VTL.vCard;
-				PRODUCT_NAME = vCard;
+				PRODUCT_NAME = SampleGitApp;
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.VTL.vCard";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
@@ -304,7 +307,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Distribution: Virinchi Technologies Limited (C8CSMQKCZ9)";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SampleGitApp/Preview Content\"";
 				DEVELOPMENT_TEAM = C8CSMQKCZ9;
@@ -322,10 +326,12 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.VTL.vCard;
-				PRODUCT_NAME = vCard;
+				PRODUCT_NAME = SampleGitApp;
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.VTL.vCard";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
